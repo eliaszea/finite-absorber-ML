@@ -63,7 +63,7 @@ Copyright 2023 Elias Zea, Eric Brandão
 
 This software was written by Elias Zea, and the datasets were created by Eric Brandão. 
 
-RIRIS is free software. You can redistribute it and/or modify it under the
+finite-absorber-ML is free software. You can redistribute it and/or modify it under the
 terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. If not stated otherwise, this applies to all files contained in this package and its sub-directories. 
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
