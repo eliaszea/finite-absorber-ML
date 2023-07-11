@@ -9,7 +9,14 @@ This repository contains the datasets, models, and associated results in the pap
 
 **2. INSTALLATION**
 
-The models and the datasets are required to run the main script to reproduce the results. 
+Download the .zip file and extract it in your folder of preference. To run the scripts locally, the user must have installed the following Python packages:
+
+- `Numpy`
+- `Keras`
+- `TensorFlow`
+- `Pickle`
+- `Pandas`
+- `Matplotlib`
 
 **3. DATASETS**
 
@@ -23,9 +30,17 @@ The paper uses the training and validation datasets to train the neural networks
 
 [^1]: [Y. Miki, “Acoustical properties of porous materials-modifications of Delany-Bazley models,” J. Acoust. Soc. Japan (E) 11(1), 19–24 (1990).](https://www.jstage.jst.go.jp/article/ast1980/11/1/11_1_19/_article/-char/ja/).
 
-**4. MAIN SCRIPT**
+**4. PYTHON SCRIPTS**
 
-The main script is used to reproduce the results of the paper. 
+Two scripts are provided: 
+
+_4.1. trainModels.py_
+
+This script can be run to train the models from scratch. The default training settings are taken from the paper by Zea et al. (2023). To modify these settings, the user must choose the training parameters, such as `batchSize`, `optimizer`, etc. 
+
+_4.2 reproduceFigures.py_
+
+This script can be used to reproduce the results figures in the paper by Zea et al. (2023). 
 
 **5. RELEASE HISTORY**
 
