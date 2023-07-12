@@ -20,15 +20,12 @@ Download the .zip file and extract it in your folder of preference. To run the s
 
 **3. DATASETS**
 
-The datasets can be found in Zenodo (include website here). The user should download them to their local/cloud environment, and put them in the pre-created folder called `datasets`. 
-
-The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^1] model. There are 330 thousand simulations, out of which 300 are for training and validation sets (80/20 %), 15 for an interpolation test set, and another 15 for an extrapolation test set. 
-
-[ADD TABLE HERE WITH PARAMETERS OF TRAINING; VALIDATION; TESTING]
+The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2]. The user should download them to their local/cloud environment. The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^1] model. There are 330 thousand simulations, out of which 300 are for training and validation sets (80/20 %), 15 for an interpolation test set, and another 15 for an extrapolation test set. 
 
 The paper uses the training and validation datasets to train the neural networks. The test sets assess the network's performance against unseen data.
 
 [^1]: [Y. Miki, “Acoustical properties of porous materials-modifications of Delany-Bazley models,” J. Acoust. Soc. Japan (E) 11(1), 19–24 (1990).](https://www.jstage.jst.go.jp/article/ast1980/11/1/11_1_19/_article/-char/ja/).
+[^2]: [Zea et al. 2023, Dataset of sound field simulations above finite absorbers, Zenodo, DOI: 10.5281/zenodo,8137012](https://doi.org/10.5281/zenodo.8137012).
 
 **4. PYTHON SCRIPTS**
 
