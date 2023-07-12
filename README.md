@@ -34,7 +34,7 @@ The paper uses the training and validation datasets to train the neural networks
 
 **4. PYTHON SCRIPTS**
 
-Two scripts are provided: 
+Two scripts are provided: (These are not published yet, come back again soon!)
 
 _4.1. trainModels.py_
 
