@@ -3,7 +3,11 @@ Datasets, models, and results for the paper "Sound absorption estimation of fini
 
 **1. INTRODUCTION**
 
-This repository contains the datasets and models to reproduce the results in the paper "Sound absorption estimation of finite porous samples with deep residual learning" by Zea et al. (2023). 
+This repository contains the datasets and models to reproduce the results in the paper "Sound absorption estimation of finite porous samples with deep residual learning" by [^1Zea et al. (2023)]. 
+
+[^1]: [E. Zea, E. Brand ̃ao, M. Nolan, J. Cuenca, J. And ́en, and U. P. Svensson. Sound absorption
+estimation of finite porous materials with deep residual learning. Preprint submitted to The
+Journal of the Acoustical Society of America, DOI: 10.13140/RG.2.2.19369.88165, July 2023](http://dx.doi.org/10.13140/RG.2.2.19369.88165).
 
 `finite-absorber-ML` is covered by a GPL v3 license (see LICENSE for license terms).
 
@@ -20,12 +24,13 @@ Download the .zip file and extract it in your folder of preference. To run the s
 
 **3. DATASETS**
 
-The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2]. The user should download them to their local/cloud environment. The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^1] model. There are 330 thousand simulations, out of which 300 are for training and validation sets (80/20 %), 15 for an interpolation test set, and another 15 for an extrapolation test set. 
+The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2]. The user should download them to their local/cloud environment. The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^3] model. There are 330 thousand simulations, out of which 300 are for training and validation sets (80/20 %), 15 for an interpolation test set, and another 15 for an extrapolation test set. 
 
 The paper uses the training and validation datasets to train the neural networks. The test sets assess the network's performance against unseen data.
 
-[^1]: [Y. Miki, “Acoustical properties of porous materials-modifications of Delany-Bazley models,” J. Acoust. Soc. Japan (E) 11(1), 19–24 (1990).](https://www.jstage.jst.go.jp/article/ast1980/11/1/11_1_19/_article/-char/ja/).
 [^2]: [Zea et al. 2023, Dataset of sound field simulations above finite absorbers, Zenodo, DOI: 10.5281/zenodo,8137012](https://doi.org/10.5281/zenodo.8137012).
+[^3]: [Y. Miki, “Acoustical properties of porous materials-modifications of Delany-Bazley models,” J. Acoust. Soc. Japan (E) 11(1), 19–24 (1990).](https://www.jstage.jst.go.jp/article/ast1980/11/1/11_1_19/_article/-char/ja/).
+
 
 **4. PYTHON SCRIPTS**
 
