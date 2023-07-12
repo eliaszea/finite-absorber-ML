@@ -24,7 +24,7 @@ Download the .zip file and extract it in your folder of preference. To run the s
 
 **3. DATASETS**
 
-The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2]. The user should download them to their local/cloud environment. The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^3] model. There are 330 thousand simulations, out of which 300 are for training and validation sets (80/20 %), 15 for an interpolation test set, and another 15 for an extrapolation test set. 
+The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2]. The user should download them to their local/cloud environment. The sound fields are generated with a simplified boundary element method (BEM) of a baffled porous layer on a rigid backing using the Delany–Bazley–Miki[^3] model. There are 330k simulations, out of which 300k are for training and validation sets (80/20 %), 15k for an interpolation test set, and another 15k for an extrapolation test set. 
 
 The paper uses the training and validation datasets to train the neural networks. The test sets assess the network's performance against unseen data.
 
