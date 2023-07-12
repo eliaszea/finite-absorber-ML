@@ -3,7 +3,7 @@ Datasets, models, and results for the paper "Sound absorption estimation of fini
 
 **1. INTRODUCTION**
 
-This repository contains the datasets and models to reproduce the results in the paper "Sound absorption estimation of finite porous samples with deep residual learning" by [^1]. 
+This repository contains the models and data to reproduce the results in the paper "Sound absorption estimation of finite porous samples with deep residual learning" [^1]. In that paper, residual neural networks perform at least as well as the two-microphone method for frequencies above 1 kHz and significantly better than it for small absorbers and frequencies below 400 Hz. It could be said that the neural networks are trained to detect strong edge diffraction and mitigate it from the measurement. 
 
 [^1]: [E. Zea, E. Brand ̃ao, M. Nolan, J. Cuenca, J. And ́en, and U. P. Svensson. Sound absorption
 estimation of finite porous materials with deep residual learning. Preprint submitted to The
