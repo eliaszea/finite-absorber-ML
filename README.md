@@ -35,7 +35,7 @@ The paper uses the training and validation datasets to train the neural networks
 
 **6. FEEDBACK & CONTACT INFORMATION**
 
-Your questions, suggestions, and feedback can help improve the quality of this software. Feel free to contact me at
+Your questions, suggestions, and feedback can help improve the quality of this software. Feel free to reach out:
 
 	Elias Zea (zea@kth.se)
 	Marcus Wallenberg Laboratory for Sound and Vibration Research
