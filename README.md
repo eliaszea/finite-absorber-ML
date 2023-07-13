@@ -13,14 +13,7 @@ Journal of the Acoustical Society of America, DOI: 10.13140/RG.2.2.19369.88165, 
 
 **2. INSTALLATION**
 
-Download the .zip file and extract it in your folder of preference. To run the scripts locally, the user must have installed the following Python packages:
-
-- `Numpy`
-- `Keras`
-- `TensorFlow`
-- `Pickle`
-- `Pandas`
-- `Matplotlib`
+Download the .zip file and extract it in your folder of preference. 
 
 **3. DATASETS**
 
