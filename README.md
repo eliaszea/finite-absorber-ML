@@ -5,7 +5,7 @@ Datasets, models, and results for the paper "Sound absorption estimation of fini
 
 This repository contains the models and data to reproduce the paper's results[^1]. In that paper, residual neural networks perform at least as well as the two-microphone method for frequencies above 1 kHz and significantly better than it for small absorbers and frequencies below 400 Hz. It could be said that the neural networks are trained to detect strong edge diffraction and mitigate it from the measurement. 
 
-[^1]: [E. Zea, E. Brand ̃ao, M. Nolan, J. Cuenca, J. And ́en, and U. P. Svensson. Sound absorption
+[^1]: [E. Zea, E. Brandão, M. Nolan, J. Cuenca, J. Andén, and U. P. Svensson. Sound absorption
 estimation of finite porous materials with deep residual learning. Preprint submitted to The
 Journal of the Acoustical Society of America, DOI: 10.13140/RG.2.2.19369.88165, July 2023](http://dx.doi.org/10.13140/RG.2.2.19369.88165).
 
@@ -21,7 +21,7 @@ The datasets can be found in [Zenodo](https://doi.org/10.5281/zenodo.8137012)[^2
 
 The paper uses the training and validation datasets to train the neural networks. The test sets assess the network's performance against unseen data.
 
-[^2]: [Zea et al. 2023, Dataset of sound field simulations above finite absorbers, Zenodo, DOI: 10.5281/zenodo,8137012](https://doi.org/10.5281/zenodo.8137012).
+[^2]: [E. Zea et al. 2023, Dataset of sound field simulations above finite absorbers, Zenodo, DOI: 10.5281/zenodo,8137012](https://doi.org/10.5281/zenodo.8137012).
 [^3]: [Y. Miki, “Acoustical properties of porous materials-modifications of Delany-Bazley models,” J. Acoust. Soc. Japan (E) 11(1), 19–24 (1990).](https://www.jstage.jst.go.jp/article/ast1980/11/1/11_1_19/_article/-char/ja/).
 
 
