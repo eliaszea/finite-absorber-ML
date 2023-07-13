@@ -34,15 +34,7 @@ The paper uses the training and validation datasets to train the neural networks
 
 **4. PYTHON SCRIPTS**
 
-Two scripts are provided: (These are not published yet, come back again soon!)
-
-_4.1. trainModels.py_
-
-This script can be run to train the models from scratch. The default training settings are taken from the paper by Zea et al. (2023). To modify these settings, the user must choose the training parameters, such as `batchSize`, `optimizer`, etc. 
-
-_4.2 reproduceFigures.py_
-
-This script can be used to reproduce the results figures in the paper by Zea et al. (2023). 
+(( Not published yet; come back again soon! ))
 
 **5. RELEASE HISTORY**
 
